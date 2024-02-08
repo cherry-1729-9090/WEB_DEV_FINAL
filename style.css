@@ -10,11 +10,12 @@
     padding-right: 40px;
 }
 .main{
+    height: 80vh;
     display: flex;
 }
 .post-box{
     background-color: whitesmoke;
-    height: 770px;
+    height: 93vh;
     width: 75%;
     display: flex;
     align-items: center;
@@ -45,6 +46,8 @@
 .chat-posts{
     padding-left: 20px;
     width: 25%;
+    height: 93vh;
+    overflow-y: auto;
 }
 
 
@@ -81,5 +84,9 @@
 }
 
 .post-delete-btn{
+    cursor: pointer;
+}
+
+#edit-btn{
     cursor: pointer;
 }
